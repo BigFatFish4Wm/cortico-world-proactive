@@ -1,0 +1,45 @@
+{
+  "name": "cortico-world-proactive",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Cortico / Coopanion World: after a quiet spell the pet gets an inner thought about its person — chance grows with the silence, and the model decides whether to reach out.",
+  "author": "BigFatWhale",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BigFatFish4Wm/cortico-world-proactive.git"
+  },
+  "homepage": "https://github.com/BigFatFish4Wm/cortico-world-proactive#readme",
+  "bugs": {
+    "url": "https://github.com/BigFatFish4Wm/cortico-world-proactive/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "describe.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "cortico-world",
+    "cortico",
+    "coopanion",
+    "proactive",
+    "companion"
+  ],
+  "cortico": {
+    "kind": "world",
+    "api": 6,
+    "displayName": "主动想念",
+    "describe": "describe.json",
+    "tags": [
+      "companion"
+    ]
+  }
+}

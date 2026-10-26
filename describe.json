@@ -1,0 +1,13 @@
+{
+  "tools": [],
+  "events": [
+    {
+      "type": "proactive.thought",
+      "description": {
+        "zh": "宠物对主人的一条内心想法；是否真的去找人聊天由模型自己决定。",
+        "en": "One inner thought the pet has about its person; whether it reaches out is the model's call."
+      },
+      "trigger": "flush"
+    }
+  ]
+}
